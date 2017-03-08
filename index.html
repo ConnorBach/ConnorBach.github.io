@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html >
+
 <head>
   <meta charset="UTF-8">
   <title>Portfolio Page</title>
    
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
       <link rel="stylesheet" href="css/style.css"> 
-</head>
 
-<body>
-  <head>
   <script src="https://use.fontawesome.com/b1a83e992f.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -35,12 +34,23 @@
   <div class="container" id="content">
     
     <!--Intro-->
-    <div class="row text-center" id="title">
-      <h1> Connor Bach </h1>
-      <img class="img-responsive center-block" src="http://res.cloudinary.com/dvtp98e8r/image/upload/a_0/v1467246741/ConnorBachND_vogpfx.jpg" style="height:400px;">
-      <h2> CS Student at the University of Notre Dame </h2>
+    <hr style="border-width:0px">
+
+    <div class="container vertical_center">
+      <div class="row vertical_center" id="title">
+
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <h1> Connor Bach </h1>
+          <h2> CS Student at the University of Notre Dame </h2>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 vertical_center">
+          <img class="img-responsive img-rounded" src="http://res.cloudinary.com/dvtp98e8r/image/upload/a_0/v1467246741/ConnorBachND_vogpfx.jpg" style="height:400px;" id="connorPhoto">
+        </div>
+
+      </div> 
     </div>
-    
+
     <hr style="border-width:5px;">
     
     <!--Image-->
@@ -76,17 +86,16 @@
     
     <!--Contact/Social Media-->
     <div class="row text-center" style="margin:50px auto;" id="social">
-      <h2> Find me online </h2>
+      <h2> Find me online: </h2>
       
       <a href="https://www.linkedin.com/in/connor-bach-297a13126/"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-linkedin"></i> LinkedIn </button></a>
       
       <a href="https://twitter.com/ConnorBach2"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-twitter"></i> Twitter</button></a>  
+      <a href="https://medium.com/@cbach120"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-medium"></i> Medium</button></a>  
     </div>
     
   </div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>  
 </body>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 
-  
-</body>
 </html>

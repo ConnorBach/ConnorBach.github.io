@@ -22,6 +22,19 @@ body {
   border: solid;
   border-radius: 150px;
 }
+#connorPhoto {
+  margin: 20px auto;
+  border: solid;
+  border-radius: 150px;
+  align-self: center;
+}
 hr {
   margin: 50px auto;
+}
+
+.vertical_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
