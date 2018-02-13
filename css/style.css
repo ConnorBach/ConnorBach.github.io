@@ -1,40 +1,53 @@
 @media(min-width: 981px) { 
-  body { 
-    padding-top: 60px; 
-  } 
+    body { 
+        padding-top: 60px; 
+    } 
 }
 .navbar {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(255,255,255,.9);
 }
 body {
-  background: #0099cc;
-  font-family: 'Raleway', sans-serif; 
+    height: 100%;
+    background: #0099cc;
+    font-family: 'Raleway', sans-serif; 
+}
+.bg {
+    background-image: url("../img/sunset.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #title {
-  font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif; 
 }
 #content {
-  background: white;
+    /*background: white;*/
+    background-color: rgba(255,255,255,.6);
 }
 #nd-img {
-  height: 400px;
-  margin: 20px auto;
-  border: solid;
-  border-radius: 150px;
+    height: 400px;
+    margin: 20px auto;
+    border: solid;
+    border-radius: 150px;
 }
 #connorPhoto {
-  margin: 20px auto;
-  border: solid;
-  border-radius: 150px;
-  align-self: center;
+    margin: 20px auto;
+    border: solid;
+    border-radius: 150px;
+    align-self: center;
+    background-color: rgba(255,255,255,.6);
 }
 hr {
-  margin: 50px auto;
+    margin: 50px auto;
 }
 
 .vertical_center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
