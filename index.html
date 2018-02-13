@@ -1,110 +1,119 @@
 <!DOCTYPE html>
 <html >
 
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio Page</title>
-   
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-      <link rel="stylesheet" href="css/style.css"> 
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+        <title>Portfolio Page</title>
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/style.css"> 
 
-  <script src="https://use.fontawesome.com/b1a83e992f.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic' rel='stylesheet' type='text/css'>
-</head>
+        <script src="https://use.fontawesome.com/b1a83e992f.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic' rel='stylesheet' type='text/css'>
+    </head>
 
-<body class="bg">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      
-      <!--Name-->
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Connor Bach</a>
-      </div>
-      
-      <!--Items-->
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="resume.pdf">Resume</a></li>
-        <li><a href="#social">Contact</a></li>
-      </ul>
-      
-    </div>
-  </nav>
-  
-  <div class="container" id="content">
-    
-    <!--Intro-->
-    <hr style="border-width:0px">
+    <body class="bg">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container-fluid">
 
-    <div class="container vertical_center">
-      <div class="row vertical_center">
+                <!--Name-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-        <div class="row text-center center-block">
-          <h1> Connor Bach </h1>
-          <h2> CS Student at the University of Notre Dame </h2>
-        </div>
+                    <a class="navbar-brand" href="#">Connor Bach</a>
+                </div>
 
-        <!--
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 vertical_center">
-          <img class="img-responsive img-rounded" src="http://res.cloudinary.com/dvtp98e8r/image/upload/a_0/v1467246741/ConnorBachND_vogpfx.jpg" style="height:350px;" id="connorPhoto">
-        </div>
-        -->
+                <!--Items-->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="resume.pdf">Resume</a></li>
+                        <li><a href="#social">Contact</a></li>
+                    </ul>
+        </nav>
 
-      </div> 
-    </div>
+                </div>
+                </nav>
 
-    <hr style="border-width:5px;">
-    
-    <!--Image
-    <div class="row">
-      <img class="img-responsive center-block" src="http://admissions.nd.edu/assets/192453/original/nd_234_adwag_fb_trad_hashtag.jpg" id="nd-img">
-    </div>
-    
-    <hr style="border-width:5px;">-->
-    
-    <!--Portfolio-->
-    <div class="row text-center center-block" id="portfolio">
-      <h2 style="margin:auto auto 50px auto;"> Portfolio </h2>
-      
-      <h3> Multiplayer AI Board Game Simulation </h3>
-      <p>
-      <a href="https://github.com/ConnorBach/BoardGameSim"> 
-              5 AI's compete for control over a fictional government.</a>
-      </p>
+                <div class="container" id="content">
 
-      <h3> Digital Guitar Effects </h3>
-      <p>
-      <a href="https://github.com/ConnorBach/DigitalGuitarEffects">
-              Modeling guitar effects in Matlab</a>
-      </p>
+                    <!--Intro-->
+                    <hr style="border-width:0px">
 
-      <h3> Notre Dame Dining Hall Guide </h3>
-      <p>
-      <a href="https://github.com/ConnorBach/nd_dh_guide"> 
-              A Python utility that finds your favorite foods in the Dining Hall</a>
-      </p>
+                    <div class="container vertical_center">
+                        <div class="row vertical_center">
 
-      <hr style="border-width:5px;">
-    </div>
+                            <div class="row text-center center-block">
+                                <h1> Connor Bach </h1>
+                                <h2> CS Student at the University of Notre Dame </h2>
+                            </div>
 
-    <!--Resume-->
-    <div class="row text-center" style="margin:50px auto;" id="resume">
-      <h3> Checkout my <a href="resume.pdf">Resume</a></h2>
-    </div>
+                            <!--
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 vertical_center">
+                                <img class="img-responsive img-rounded" src="http://res.cloudinary.com/dvtp98e8r/image/upload/a_0/v1467246741/ConnorBachND_vogpfx.jpg" style="height:350px;" id="connorPhoto">
+                                </div>
+                            -->
 
-    <!--Contact/Social Media-->
-    <div class="row text-center" style="margin:50px auto;" id="social">
-      <h2> Find me online: </h2>
-      
-      <a href="https://www.linkedin.com/in/connor-bach-297a13126/"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-linkedin"></i></button></a>
+                        </div> 
+                    </div>
 
-      <a href="https://github.com/ConnorBach"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-github"></i></button></a>
+                    <hr style="border-width:5px;">
 
-      <a href="mailto:cbach120@gmail.com"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-envelope"></i></button></a>
-    </div>
-    
-  </div>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>  
-</body>
+                    <!--Image
+                        <div class="row">
+                        <img class="img-responsive center-block" src="http://admissions.nd.edu/assets/192453/original/nd_234_adwag_fb_trad_hashtag.jpg" id="nd-img">
+                        </div>
+
+                        <hr style="border-width:5px;">-->
+
+                        <!--Portfolio-->
+                        <div class="row text-center center-block" id="portfolio">
+                            <h2 style="margin:auto auto 50px auto;"> Portfolio </h2>
+
+                            <h3> Multiplayer AI Board Game Simulation </h3>
+                            <p>
+                            <a href="https://github.com/ConnorBach/BoardGameSim"> 
+                                5 AI's compete for control over a fictional government.</a>
+                            </p>
+
+                            <h3> Digital Guitar Effects </h3>
+                            <p>
+                            <a href="https://github.com/ConnorBach/DigitalGuitarEffects">
+                                Modeling guitar effects in Matlab</a>
+                            </p>
+
+                            <h3> Notre Dame Dining Hall Guide </h3>
+                            <p>
+                            <a href="https://github.com/ConnorBach/nd_dh_guide"> 
+                                A Python utility that finds your favorite foods in the Dining Hall</a>
+                            </p>
+
+                            <hr style="border-width:5px;">
+                        </div>
+
+                        <!--Resume-->
+                        <div class="row text-center" style="margin:50px auto;" id="resume">
+                            <h3> Checkout my <a href="resume.pdf">Resume</a></h2>
+                        </div>
+
+                        <!--Contact/Social Media-->
+                        <div class="row text-center" style="margin:50px auto;" id="social">
+                            <h2> Find me online: </h2>
+
+                            <a href="https://www.linkedin.com/in/connor-bach-297a13126/"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-linkedin"></i></button></a>
+
+                            <a href="https://github.com/ConnorBach"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-github"></i></button></a>
+
+                            <a href="mailto:cbach120@gmail.com"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-envelope"></i></button></a>
+                        </div>
+
+                </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+    </body>
 
 </html>
