@@ -1,53 +1,42 @@
-@media(min-width: 981px) { 
-    body { 
-        padding-top: 60px; 
-    } 
-}
-.navbar {
-    margin-bottom: 0px;
-    background-color: rgba(255,255,255,.9);
-}
 body {
     height: 100%;
+    padding-top: 2%;
     background: white;
     font-family: 'Raleway', sans-serif; 
+    background-color: antiquewhite;
 }
-.bg {
-    background-image: url("../img/sunset.jpg");
 
-    height: 100%;
+p {
+    font-size: 18px;
+    padding-top: 3%;
+}
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#title {
-    font-family: 'Raleway', sans-serif; 
-}
-#content {
-    /*background: white;*/
-    background-color: rgba(255,255,255,.5);
-}
-#nd-img {
-    height: 400px;
-    margin: 20px auto;
-    border: solid;
-    border-radius: 150px;
-}
-#connorPhoto {
-    margin: 20px auto;
-    border: solid;
-    border-radius: 150px;
-    align-self: center;
-    background-color: rgba(255,255,255,.6);
-}
 hr {
-    margin: 50px auto;
+    border-width: 3px;
+    border-color: darkred;
+    width: 45%;
+    margin: auto 0;
 }
 
-.vertical_center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#header {
+    padding-bottom: 3%;
+}
+
+#site-title {
+    color: black;
+    font-size:36px;
+}
+
+#about {
+    padding-top: 8%;
 }
