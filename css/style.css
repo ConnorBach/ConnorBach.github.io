@@ -33,6 +33,7 @@ a:hover, a:visited, a:link, a:active
 }
 
 #site-title {
+    font-family: 'Open Sans', sans-serif;
     color: black;
     font-size:36px;
 }
