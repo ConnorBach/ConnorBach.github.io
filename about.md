@@ -11,4 +11,4 @@ tags: about
 
  Get in touch with an email: [cbach120@gmail.com](cbach120@gmail.com).
 
- If you would like learn more, checkout my [LinkedIn](https://www.linkedin.com/in/connor-bach-nd/), [Github](https://github.com/connorbach), or [Resume](/BachConnorResume.pdf). 
+ If you would like to learn more, checkout my [LinkedIn](https://www.linkedin.com/in/connor-bach-nd/), [Github](https://github.com/connorbach), or [Resume](/BachConnorResume.pdf). 
