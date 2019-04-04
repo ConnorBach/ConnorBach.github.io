@@ -2,7 +2,7 @@
 layout: post
 title: "Learning Elixir"
 ---
-## Elixir 
+## Elixir and Functional Programming
 
 I've been reading a lot about Elixir recently and wanted to give the language a spin. Elixir is a functional
 language that runs on the Erlang VM. With syntax that draws inspiration from Ruby, Elixir provides a smoother transition

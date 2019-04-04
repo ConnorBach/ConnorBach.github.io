@@ -3,7 +3,7 @@ layout: post
 title: "Developing React apps with Spring Boot and Netflix Zuul"
 ---
 
-## Spring Boot and React 
+## Spring Boot and React
 
 If you use Spring Boot as your standard web serving solution it is fairly easy to build
 React applications on top of Spring Boot with a little extra configuration. This post gives an overview of 
