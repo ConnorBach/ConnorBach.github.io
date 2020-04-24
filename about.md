@@ -5,9 +5,11 @@ permalink: /about/
 tags: about
 ---
 
- My name is Connor Bach. I'm a computer science student at the University of Notre Dame.
+ My name is Connor Bach. I'm an incoming software engineer at Microsoft.
 
- I've worked as a full-stack intern at Optum, working with React and Java Spring Boot. This coming summer I will be interning at Microsoft.
+ This past summer I interned at Microsoft, writing software for their Cloud Supply Chain orgination. I've also worked as a full-stack intern at Optum, working with React and Java Spring Boot.
+
+I studied computer science at the University of Notre Dame.
 
  Get in touch with an email: [cbach120@gmail.com](cbach120@gmail.com).
 
